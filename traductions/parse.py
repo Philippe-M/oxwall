@@ -61,13 +61,6 @@ def CreateTranslate():
 
 def main():
     try:
-        #parser = OptionParser()
-        #parser.add_option("-s", "--source", dest="CreateTranslate", help="path to the xml file", type="string", default=False)
-
-        #(options, args) = parser.parse_args()
-
-        #if options.CreateTranslate:
-            #CreateTranslate(options.CreateTranslate)
         CreateTranslate()
 
     except KeyboardInterrupt:
